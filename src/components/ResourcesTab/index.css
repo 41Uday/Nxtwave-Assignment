@@ -1,0 +1,73 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+
+
+.resources-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width : 768px) {
+    .resources-list-container {
+        justify-content: flex-start;
+    }
+    .search-head-last {
+        font-size: 25px;
+    }
+}
+
+.card-failure-img {
+    height: 200px;
+    width: 300px;
+}
+
+.card-failure-heading {
+    font-size: 45px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.card-failure-para {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.card-failure-button {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 8px;
+    background-color: #4f46e5;
+    border: none;
+}
+  
+.card-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.search-keyword-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
